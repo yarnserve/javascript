@@ -48,3 +48,15 @@ button:hover {
   background-color: #111;
   color: #fff;
 }
+
+.list {
+  width: 200px;
+  margin-top: 2rem;
+}
+
+.list p {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.4rem;
+  padding: 0.6rem 0;
+  text-align: center;
+}
