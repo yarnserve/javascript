@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자바스크립트 | movie list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie List</h1>
+
+      <div class="movie">
+        <div class="poster">
+          <img src="" alt="" id="poster" />
+        </div>
+        <div class="title_area">
+          <div class="num" id="num"></div>
+          <div class="title" id="title"></div>
+        </div>
+        <h2 class="direction">감독: <span id="director"></span></h2>
+        <p class="info" id="info"></p>
+      </div>
+
+      <div class="btns">
+        <button class="prev">이전</button>
+        <button class="next">다음</button>
+      </div>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
